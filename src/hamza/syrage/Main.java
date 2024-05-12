@@ -38,6 +38,9 @@ public static void main(String[] args) {
                index= carList.indexOf(c);
         }
    }
+    for (int i = 0; i < 2; i++) {
+        System.out.println("");
+    }
     System.out.println("winer team is");
     System.out.println(carList.get(index));
     
